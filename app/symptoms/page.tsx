@@ -69,7 +69,7 @@ export default function SymptomsPage() {
                     <div className="rounded-xl border border-neutral-200/50 bg-white/60 p-6 backdrop-blur dark:border-neutral-800/50 dark:bg-neutral-900/60 sm:p-8">
                         <h2 className="mb-6 text-xl font-semibold text-neutral-900 dark:text-white">Probable diagnosis</h2>
                         <div
-                            className="grid min-h-56 gap-3 rounded-lg border border-dashed border-neutral-300/50 bg-gradient-to-br from-neutral-50/50 to-blue-50/30 p-5 text-neutral-700 dark:border-neutral-700/50 dark:from-neutral-950/50 dark:to-blue-950/30 dark:text-neutral-300"
+                            className="grid min-h-56 gap-3 rounded-lg border border-dashed border-neutral-300/50 bg-linear-to-br from-neutral-50/50 to-blue-50/30 p-5 text-neutral-700 dark:border-neutral-700/50 dark:from-neutral-950/50 dark:to-blue-950/30 dark:text-neutral-300"
                             aria-live="polite"
                         >
                             <p className="font-semibold text-neutral-900 dark:text-neutral-100">No assessment yet</p>
@@ -78,19 +78,19 @@ export default function SymptomsPage() {
                             </p>
                             <ul className="space-y-2 text-sm">
                                 <li className="flex items-start gap-2">
-                                    <svg className="mt-0.5 h-4 w-4 flex-shrink-0 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                    <svg className="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                     </svg>
                                     <span>Ranked differential diagnoses</span>
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <svg className="mt-0.5 h-4 w-4 flex-shrink-0 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                    <svg className="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                     </svg>
                                     <span>ICD-10 codes for each diagnosis</span>
                                 </li>
                                 <li className="flex items-start gap-2">
-                                    <svg className="mt-0.5 h-4 w-4 flex-shrink-0 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                                    <svg className="mt-0.5 h-4 w-4 shrink-0 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
                                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                                     </svg>
                                     <span>Clinical guidance per Kazakhstan protocols</span>

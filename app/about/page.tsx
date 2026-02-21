@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-neutral-50 via-blue-50 to-neutral-50 dark:from-neutral-950 dark:via-neutral-900 dark:to-neutral-950">
+    <main className="min-h-screen bg-linear-to-br from-neutral-50 via-blue-50 to-neutral-50 dark:from-neutral-950 dark:via-neutral-900 dark:to-neutral-950">
       <div className="mx-auto max-w-4xl px-5 py-16 sm:py-24">
         {/* Header */}
         <div className="mb-16 space-y-4 text-center sm:mb-20">
@@ -111,7 +111,7 @@ export default function About() {
           </h2>
           <div className="space-y-6">
             <div className="flex gap-4 sm:gap-6">
-              <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 font-semibold text-blue-600 dark:bg-blue-900/50 dark:text-blue-400 sm:h-12 sm:w-12">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-blue-100 font-semibold text-blue-600 dark:bg-blue-900/50 dark:text-blue-400 sm:h-12 sm:w-12">
                 1
               </div>
               <div>
@@ -125,7 +125,7 @@ export default function About() {
             </div>
 
             <div className="flex gap-4 sm:gap-6">
-              <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 font-semibold text-blue-600 dark:bg-blue-900/50 dark:text-blue-400 sm:h-12 sm:w-12">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-blue-100 font-semibold text-blue-600 dark:bg-blue-900/50 dark:text-blue-400 sm:h-12 sm:w-12">
                 2
               </div>
               <div>
@@ -139,7 +139,7 @@ export default function About() {
             </div>
 
             <div className="flex gap-4 sm:gap-6">
-              <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 font-semibold text-blue-600 dark:bg-blue-900/50 dark:text-blue-400 sm:h-12 sm:w-12">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-blue-100 font-semibold text-blue-600 dark:bg-blue-900/50 dark:text-blue-400 sm:h-12 sm:w-12">
                 3
               </div>
               <div>
@@ -153,7 +153,7 @@ export default function About() {
             </div>
 
             <div className="flex gap-4 sm:gap-6">
-              <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 font-semibold text-blue-600 dark:bg-blue-900/50 dark:text-blue-400 sm:h-12 sm:w-12">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-blue-100 font-semibold text-blue-600 dark:bg-blue-900/50 dark:text-blue-400 sm:h-12 sm:w-12">
                 4
               </div>
               <div>
@@ -178,7 +178,7 @@ export default function About() {
           </p>
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="flex items-start gap-3">
-              <svg className="h-5 w-5 flex-shrink-0 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="h-5 w-5 shrink-0 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
               <div>
@@ -187,7 +187,7 @@ export default function About() {
               </div>
             </div>
             <div className="flex items-start gap-3">
-              <svg className="h-5 w-5 flex-shrink-0 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="h-5 w-5 shrink-0 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
               <div>
@@ -199,7 +199,7 @@ export default function About() {
         </div>
 
         {/* CTA Section */}
-        <div className="rounded-2xl border border-neutral-200/50 bg-gradient-to-br from-blue-50 to-cyan-50 p-8 text-center dark:border-neutral-800/50 dark:from-blue-900/20 dark:to-cyan-900/20 sm:p-12">
+        <div className="rounded-2xl border border-neutral-200/50 bg-linear-to-br from-blue-50 to-cyan-50 p-8 text-center dark:border-neutral-800/50 dark:from-blue-900/20 dark:to-cyan-900/20 sm:p-12">
           <h2 className="text-2xl font-bold text-neutral-900 dark:text-white sm:text-3xl">
             Ready to get started?
           </h2>
